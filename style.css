@@ -1,0 +1,51 @@
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: aquamarine;
+
+}
+h1{
+  color: blueviolet;
+}
+form{
+  background-color: white;
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px brown;
+  transition-duration: 0.8;
+}
+form:hover{
+  box-shadow: 8px 8px 22px brown;
+}
+#tempValue{
+  width: 50%;
+  text-align: center;
+  font-size: 2em;
+  display: inline-block;
+  border-radius: 5px;
+  
+}
+label{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+button{
+  margin-top: 15px;
+  cursor: pointer;
+  background-color: rgb(247, 14, 14) ;
+  font-size: 1.5em;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 8px black;
+}
+button:hover{
+  box-shadow: 8px 8px 12px black;
+  
+}
+#result{
+  font-size: 1.75em;
+  font-weight: bold;
+}
